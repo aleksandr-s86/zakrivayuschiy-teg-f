@@ -31,4 +31,8 @@
   --accent-color: #000;
   --btn-background: #fff;
   --text-button: #fff;
+  --contour-color: black;
+  --animation-fill-color: #ff0000;
+  --hover-core-color: black;
+  --hover-main-body-color: black;
 }

@@ -16,8 +16,8 @@
   font-family: var(--inter-variable);
   font-variation-settings: "wght" 400;
   background-image: var(--background-page);
-  background-size: cover;      
-  background-attachment: fixed;   
+  background-size: cover;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
   justify-items: center;

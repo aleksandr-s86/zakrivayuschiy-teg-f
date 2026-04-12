@@ -14,7 +14,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--inter-variable);
-  font-variation-settings: var(--weight-text-card);
+  font-variation-settings: "wght" var(--weight-text-card);
   background-image: var(--background-page);
   background-size: cover;
   background-attachment: fixed;
@@ -233,7 +233,7 @@
 
 .card__like-button {
   inline-size: 130px;
-  block-size: 38px;  
+  block-size: 38px;
 }
 
 .button__text {
@@ -265,7 +265,7 @@
 }
 
 .button:hover::before {
-  transform: scaleX(1);  
+  transform: scaleX(1);
 }
 
 .save_memory {

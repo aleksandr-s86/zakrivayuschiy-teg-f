@@ -1,6 +1,6 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-  --pressstart2p: 'PressStart2P', sans-serif;
+  --press-start-two-p: 'PressStart2P', fantasy;
   --inter-variable: 'Inter-Variable', sans-serif;
   --weight-header-card: 715px;
   --weight-text-card: 410px;

@@ -219,10 +219,12 @@
         <span class="button__text">Сохранить на память</span>
       </button>
       <dialog class="save_dialog" id="save_dialog">
-        <svg width="39" height="39" aria-hidden="true">
+        <div class="description_dialog">
+          <svg width="39" height="39" aria-hidden="true">
           <use href="./svg/sprite.svg#diskette"></use>
         </svg>
-        <p class="head_dialog">Вставьте дискету, чтобы продолжить</p>  
+        <p class="head_dialog">Вставьте дискету, чтобы продолжить</p>        
+        </div>  
         <button class="button close_dialog" type="button" onclick="window['save_dialog'].close()">
           <span class="button__text">ok</span>
         </button>

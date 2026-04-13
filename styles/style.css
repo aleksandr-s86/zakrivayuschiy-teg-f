@@ -307,9 +307,8 @@
 .save_dialog[open] {
   position: fixed;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: start;
-  align-items: center;
+  flex-direction: column;
+  align-items: start;
   gap: 20px;
   padding: 27px;
   inline-size: clamp(341px, 100%, 353px);
@@ -321,7 +320,7 @@
   backdrop-filter: brightness(25%);
 }
 
-.text_dialog {
+.description_dialog {
   display: flex;
   align-items: center;
   justify-content: center;

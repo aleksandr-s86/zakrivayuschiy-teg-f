@@ -37,13 +37,13 @@
 }
 
 .head_header {
-  font-family: var(--press-start-two-p);
-  font-variation-settings: var(--weight-header-card);
+  font-family: var(--press-start-p);
+  font-variation-settings: "wght" var(--weight-header-card);
   font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
   text-transform: uppercase;
 }
 
-.levtwo {
+.subtitle {
   font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
 }
 
@@ -85,16 +85,16 @@
   right: 25px;
   opacity: 0.5;
   mix-blend-mode: hard-light;
-  font-family: var(--press-start-two-p);
+  font-family: var(--press-start-p);
   font-size: 14px;
-  -webkit-text-stroke: 1px var(--white-color);
+  text-shadow: 1px 1px 0 var(--white-color);
 }
 
 @supports (text-stroke: 1px var(--white-color)) or  (-webkit-text-stroke: 1px var(--white-color)) {
   .text_label {
     -webkit-text-stroke: 1px var(--white-color);
     text-stroke: 1px var(--white-color);
-    text-shadow: 1px 1px 0 var(--white-color);
+    text-shadow: none;
   }
 }
 
@@ -147,7 +147,7 @@
   flex-shrink: 0;
 }
 
-.like-icon:focus {
+ .card__icon-button:focus {
   outline: none;
 }
 
@@ -239,7 +239,7 @@
 }
 
 .button__text {
-  font-family: var(--press-start-two-p);
+  font-family: var(--press-start-p);
   font-size: 14px;
   line-height: 90%;
   position: relative;
@@ -307,10 +307,8 @@
   justify-content: start;
   align-items: center;
   gap: 20px;
-  padding-top: 23px;
-  padding-left: 28px;
+  padding: 27px;
   inline-size: clamp(341px, 100%, 353px);
-  block-size: 191px;
   text-align: center;
   align-self: anchor-center;
 }
@@ -327,7 +325,7 @@
 }
 
 .head_dialog {
-  font-family: var(--press-start-two-p);
+  font-family: var(--press-start-p);
   font-size: 14px;
   line-height: 150%;
   text-transform: uppercase;
@@ -338,8 +336,8 @@
 .close_dialog {
   inline-size: 293px;
   block-size: 38px;
-  bottom: 3px;
-  font-family: var(--press-start-two-p);
+  margin-top: 9px;
+  font-family: var(--press-start-p);
   font-size: 14px;
   text-transform: uppercase;
   line-height: 90%;

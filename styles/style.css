@@ -33,7 +33,7 @@
   width: var(--width-inline-block);
   border: var(--border-block);
   padding: clamp(122px, 17vh, 130px) clamp(16px, 10vw, 122.5px);
-  margin-block-end: 100px;
+  margin-block-end: 93px;
 }
 
 .head_header {
@@ -99,10 +99,14 @@
 }
 
 .description_card {
-  padding: 25px 25px 0;
+  padding: 18px 25px 0;
   font-weight: var(--weight-text-card);
   font-size: 18px;
   line-height: 21px;
+}
+
+.student {
+  padding-top: 25px;
 }
 
 .button_card {
@@ -382,6 +386,7 @@
 @media (max-width: 375px) {
   .header {
     padding: clamp(120px, 15vh, 130px) clamp(16px, 10vw, 122.5px);
+    margin-block-end: 100px;
   }
 
   .save_memory {
